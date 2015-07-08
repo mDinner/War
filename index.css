@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+}
+
+.player {
+	display: inline-block;
+}
+.computer {
+	display: inline-block;
+}
+
+#cards {
+	display: none;
+	margin-left: 30%;
+	margin-right: 5px;
+	margin-top: 20%;
+}
+
+.cards_game {
+	display: inline-block;
+	height: 300px;
+	width: 800px;
+}
+
+.start_pg {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+#page_title_start {
+	color: white;
+	border-radius: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 25%;
+	font-size: 2.5em; 
+	border: 5px dotted red;
+	padding: 3.5px;
+	text-align: center;
+}
