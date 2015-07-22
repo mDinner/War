@@ -1,25 +1,65 @@
 body {
 	background-color: black;
+	padding: 5px;
 }
 
-.player {
-	display: inline-block;
-}
-.computer {
-	display: inline-block;
-}
-
-#cards {
-	display: none;
-	margin-left: 30%;
-	margin-right: 5px;
-	margin-top: 20%;
+.card{
+  display: none;
+  background-color: #fff; 
+  border: solid 2px dimgray; 
+  border-radius: 7px; 
+  margin: 6px; 
+ /* display: inline-block; 
+ */ height: 200px;
+  width: 115px;
 }
 
 .cards_game {
-	display: inline-block;
-	height: 300px;
-	width: 800px;
+  display: block;
+  height: 370px;
+  width: 910px;
+  background-color: green;
+  padding: 10px;
+  margin-left: 210px;
+  margin-top: 130px;
+}
+
+
+
+.card_input {
+	float: left;
+}
+
+
+
+.computer {
+  display: inline-block;
+  float: left;
+  height: 300px;
+  width: 225px;
+  background-color: blue;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+
+#card_turned{
+  display: inline-block;
+  float: left;
+  height: 300px;
+  width: 225px;
+  background-color: green;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+
+.player {
+  display: inline-block;
+  float: left;
+  height: 300px;
+  width: 225px;
+  background-color: red;
+  margin-top: 35px;
+  border-radius: 10px;
 }
 
 .start_pg {
@@ -30,13 +70,32 @@ body {
 }
 
 #page_title_start {
+	display: absolute;
 	color: white;
 	border-radius: 10px;
 	margin-left: 30%;
 	margin-right: 30%;
-	margin-top: 25%;
+	margin-top: 20%;
 	font-size: 2.5em; 
 	border: 5px dotted red;
 	padding: 3.5px;
 	text-align: center;
+}
+
+.player_name {
+  font-size: 1.5em;  	
+  display: inline-block;
+  padding: 10px;
+  margin-left: 6%;
+  margin-top: 65px;
+}
+
+#player_player {
+	font-size: 1.5em;
+	margin-left: 38%;
+}
+.player_title {
+	color: white;
+	display: none;
+	height: 0px;
 }

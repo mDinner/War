@@ -1,30 +1,31 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 	<head>
+
 		<title>52CarDWar</title>
+		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
 		<script src="jquery-1.11.3.min.js"></script>
 		<script src="jquery.js"></script>
 		
-			<div id="cards">
-				<div class="cards_game">
-				<p class="player" id="card_turned">PLAYER 1</p>
-				<img src="http://publicdomainvectors.org/photos/nicubunu_Card_backs_grid_red.png" height="200px" width="150px">
-				<p class"player" id="card_unturned">PLAYER 1</p>
-				<img src="http://publicdomainvectors.org/photos/nicubunu_Card_backs_grid_red.png" height="200px" width="150px">
-				
-				<p class="computer" id="card_turned">COMPUTER</p>
-				<img src="http://publicdomainvectors.org/photos/nicubunu_Card_backs_grid_red.png" height="200px" width="150px">
-				<p class="computer" id="card_unturned">COMPUTER</p>
-				<img src="http://publicdomainvectors.org/photos/nicubunu_Card_backs_grid_red.png" height="200px" width="150px">
-				</div>
-			</div>
+			
             <div class="start_pg">   
 				<p id="page_title_start">52 CARD WAR</p>
 				<p>click to start playing</p>
 			</div>
+				<div class="player_title">
+				<p class="player_name" id="player_player">PLAYER</p>
+				<p class="player_name">COMPUTER</p>
+				</div>
+			<div class="cards_game">
+				<div class="player" id="card_turned"><p class="card_input"></p></div>
+				<div class="player" id="card_unturned"></div>
+				<div class="computer" id="card_unturned"></div>	
+				<div class="computer" id="card_turned"></div>
+			</div>
+			
 	</body>
 </html>
 
